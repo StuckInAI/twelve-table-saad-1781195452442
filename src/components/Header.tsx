@@ -8,7 +8,7 @@ export default function Header() {
           <Calculator className="w-8 h-8 text-amber-900" />
         </div>
         <h1 className="text-4xl font-extrabold text-white tracking-tight">
-          1-12 table
+          Multiplication Table
         </h1>
       </div>
       <p className="text-yellow-100 text-lg font-medium">
