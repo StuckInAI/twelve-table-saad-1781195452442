@@ -18,8 +18,8 @@ export default function MultiplicationTable() {
             className={clsx(
               'w-10 h-10 rounded-full font-bold text-sm transition-all duration-200 shadow',
               highlight === n
-                ? 'bg-yellow-400 text-indigo-900 scale-110 shadow-yellow-400/50'
-                : 'bg-indigo-700 text-white hover:bg-indigo-500'
+                ? 'bg-yellow-300 text-amber-900 scale-110 shadow-yellow-400/50'
+                : 'bg-amber-700 text-white hover:bg-amber-500'
             )}
           >
             {n}
@@ -28,7 +28,7 @@ export default function MultiplicationTable() {
         {highlight !== null && (
           <button
             onClick={() => setHighlight(null)}
-            className="px-4 h-10 rounded-full font-bold text-sm bg-pink-500 text-white hover:bg-pink-400 transition-all duration-200 shadow"
+            className="px-4 h-10 rounded-full font-bold text-sm bg-orange-500 text-white hover:bg-orange-400 transition-all duration-200 shadow"
           >
             Clear
           </button>
